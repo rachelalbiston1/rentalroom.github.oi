@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> The Rental Room</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link rel = "stylesheet" type="text/css" href = "testStyle.css">
+
+<style>
+    .b-logo{
+        max-width:70px;
+    }
+</style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center"  id="collapsibleNavbar">
+      <ul class="navbar-nav justify-content-center">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"></a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="dresses.html">Dresses</a>
+      </li> 
+      </ul>
+      </div>
+
+      <a class="navbar-brand" href="index.html"><span style="font-size: 1em;">&nbsp;<img class="b-logo" src="offlogo.jpg" alt="Rental Room Logo"></span></a>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="howitworks1.html">How it Works</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">Contact</a>
+      </li>
+      </ul>
+      </div>
+      </nav>
+
+  <div class="container-background">
+    <div class="text-block">
+<div class="write_text"> 
+  <h3><span class="highlighter" style="background-color: #e5fdff"><u>JOIN THE RENTAL ROOM FAMILY</u></span></h3>
+</div>
+
+
+<div class="container-text">
+    <h5> <i> Receive all the updates and special deals through subscribing to our mailing list and creating an account. <br>
+      This will make for a much smoother journey when renting your desired dress plus will grant you any deals/discounts on your order. </i></h5>
+</div>
+
+<div class="alert alert-danger alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Warning!</strong> This information is used for The Rental Room database. 
+</div>
+
+<div class="container">
+    <form action="file:///Users/rachelalbiston/Documents/2019%20-%20Year%2013/Digital/python_projects/Website/index.html" class="needs-validation" novalidate>
+      <div class="form-group">
+        <input type="text" class="form-control" id="uname" placeholder="Full Name" name="uname" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+
+      <div class="form-group">
+          <input type="email" class="form-control" id="em" placeholder="Email" name="email" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+
+        <div class="form-group">
+            <input type="number" class="form-control" id="num" placeholder="Phone Number" name="number" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+
+        <div class="form-group">
+            <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+      
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember" required> By creating this account I agree to The Rental Room’s terms and private policy.
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Check this checkbox to continue.</div>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">SIGN UP</button>
+    </form>
+  </div>
+</div>
+  
+  <script>
+  // Disable form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Get the forms we want to add validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+
+<footer class="footer_container" style="margin-bottom:0"> 
+  <h4> © 2019 Rachel Albiston </h4> <br>
+  <div class="footer-wrap">
+  <a href="https://www.facebook.com/?ref=logo" target="_blank" class="fa fa-facebook"></a>
+  <a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+  <a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat-ghost"></a>
+</div>
+</footer>
+
+
+</div> 
+</body>
+</html>
